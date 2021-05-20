@@ -1,0 +1,197 @@
+/* Geral */
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: rgb(26, 24, 24);
+    color: whitesmoke;
+    margin: 0;
+}
+
+/* Header */
+#marcap {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    font-weight: lighter;
+    z-index: 100;
+    position: fixed;
+    left: 130px;
+    top: 1%;
+    margin-top: 15px;
+}
+
+#logo {
+    z-index: 80;
+    width: 100px;
+    position: fixed;
+    top: 2%;
+    left: 15px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#img-home {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin-top: 9%;
+}
+/* Menu */
+.navegacao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 80;
+    background-color: rgb(26, 24, 24);
+}
+
+.nav-lista {
+    margin-left: 120px;
+    text-align: right;
+}
+
+.nav-lista-item {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 80px;
+    padding: 16px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+        background-color: rgb(43, 41, 41);
+        margin-left: 20px;
+        padding: 10px;
+}
+
+/* Seção - Conteúdo */
+
+.secao-body {
+    background-color: rgb(53, 51, 51);
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+.para-secao {
+    color: white;
+    text-align: justify;
+    padding: 0 25px 0 25px;
+}
+
+#titempresa, #titmissao {
+    color:white;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+
+/* Footer */
+
+.rodape {
+    position: relative;
+    padding: 30px;
+}
+
+.rodape-secao {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    width: 32%;
+    min-width: 250px;
+}
+
+#copyright {
+    position: relative;
+    bottom: 0px;
+    font-size: small;
+    font-style: italic;
+}
+
+/* Pagina Fotos */
+
+.fotos {
+    margin: 40px;
+    border-style: solid;
+    border-color: white;
+}
+
+span {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.demaisfotos {
+    text-align: center;
+    overflow: auto;
+    width: 80%;
+    height: 400px;
+    background-color: rgba(128, 119, 126, 0.753);
+}
+
+#maisImagens {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Pagina Contatos */
+
+fieldset {
+    position: relative;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+legend {
+    font-size: 35px;
+}
+input,textarea,select {
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+label {
+    font-size: 20px;
+}
+input:focus,textarea:focus,select:focus {
+    background-color: whitesmoke;
+}
+input[type="text"] {
+    background-image: url(Imagens/lupa_.png);
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+input[type="submit"],input[type="reset"] {
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(54, 179, 54);
+    color: white;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    background-color: rgb(216, 49, 49);
+    color: white;
+    cursor: pointer;
+}
+select, input[type="checkbox"],input[type="radio"] {
+    cursor: pointer;
+}
