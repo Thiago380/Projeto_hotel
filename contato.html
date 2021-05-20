@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing Script" rel="stylesheet">
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1 id="marcap"> Hotel-Pets </h1>
+        <!--Menu-->
+        <nav class="navegacao">
+            <ul class="nav-lista">
+                <li class="nav-lista-item">
+                    <a class="nav-link" href="Aula 07-04.html"> Home</a>
+                </li>
+                <li class="nav-lista-item">
+                    <a class="nav-link" href="Fotos.html"> Fotos</a>
+                </li>
+                <li class="nav-lista-item">
+                    <a class="nav-link" href="contato.html"> Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="Aula 07-04.html"><img id="logo" src="Imagens/logo.png" alt="Logo da empresa"></a>
+    </header>
+
+    <form action="xxx" method="POST">
+        <fieldset>
+            <legend> Contato </legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="Nome" id="nome" size="50px" required placeholder="Nome completo">
+            <br>
+            <label for="dataNascimento">Data de Nasc:</label>
+            <input type="text" name="dataNascimento" id="dataNascimento" required placeholder="DD/MM/AA">
+            <br>
+            <label for="sexo">Sexo do pet:</label>
+            <input type="radio" name="sexo" value="F" id="sexoFeminino"> <label for="sexoFeminino">Feminino</label>
+            <input type="radio" name="sexo" value="M" id="sexoMasculino"> <label for="sexoMasculino">Masculino</label>
+            <br>
+            <label for="contato">Contato:</label>
+            <input type="checkbox" name="telefone" id="telefone"> <label for="telefone">Telefone</label>
+            <input type="checkbox" name="email" id="email"> <label for="email">E-mail</label>
+            <input type="text" name="contato" id="contado">
+            <br>
+            <label for="foto">Foto do pet:</label>
+            <input type="file" name="foto" id="foto">
+            <br>
+            <label for="interesse">Interesse:</label>
+            <select name="interesse" id="interesse">
+                <option value="banho">Banho</option>
+                <option value="hospedagem">Hospedagem</option>
+                <option value="outrosAssuntos">Outros Assuntos</option>
+            </select>
+            <br>
+            <label for="mensagem">Mensagem:</label> <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
+            <br>
+            <input type="submit" name="btnEnvio" value="Enviar">
+            &nbsp;&nbsp;
+            <input type="reset" name="btnReset" value="Limpar">
+
+        </fieldset>
+
+    </form>
+    <footer class="rodape">
+        <section class="rodape-secao">
+            <h3>Contato</h3>
+            <p> (11)5843-6697</p>
+            <p> hotelpets@hotmail.com</p>
+        </section>
+        <section class="rodape-secao" >
+            <h3>Endereços</h3>
+            <p>Avenida João Luiz</p>
+            <p>São Paulo</p>
+        </section>
+        <section class="rodape-secao">
+            <h3>Funcionamento</h3>
+            <p>Segunda a Sábado</p>
+            <p>Horários: 08:00 até 18:30</p>
+        </section>
+        <p id="copyright">copyright &copy; 2021. Thiago Gomes</p>
+    </footer>
+</body>
+
+</html>
